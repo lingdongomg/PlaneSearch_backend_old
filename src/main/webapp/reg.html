@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>用户注册</title>
+	<script src="./static/jquery/dist/jquery.min.js"></script>
+	<script src="./static/vue/dist/vue.js"></script>
+</head>
+<body>
+	<center>
+		<h1>欢迎注册</h1>
+		<div id="app">
+			<form v-on:submit.prevent="reg">
+				<table border="1">
+					<tr>
+						<td>用户名</td>
+						<td><input type="text" v-model="username" name="username"></td>
+					</tr>
+					<tr>
+						<td>密码</td>
+						<td><input type="password" v-model="password" name="password"></td>
+					</tr>
+					<tr>
+						<td>昵称</td>
+						<td><input type="text" v-model="nickname" name="nickname"></td>
+					</tr>
+					<tr>
+						<td>年龄</td>
+						<td><input type="text" v-model="age" name="age"></td>
+					</tr>
+					<tr>
+						<td align="center" colspan="2">
+							<input type="submit" value="注册">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</center>
+</body>
+<script src="./static/js/demo.js"></script>
+</html>

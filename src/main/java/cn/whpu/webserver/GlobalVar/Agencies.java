@@ -1,0 +1,8 @@
+package cn.whpu.webserver.GlobalVar;
+
+import java.util.*;
+
+public class Agencies {
+    public static String agencies = "AAA001,BBB001,CCC001,DDD001,EEE001,FFF001,GGG001,HHH001,III001,JJJ001,KKK001,LLL001,MMM001,NNN001,OOO001,PPP001,QQQ001,RRR001,SSS001,TTT001,UUU001,VVV001,WWW001,XXX001,YYY001,ZZZ001";
+    public static Set<String> agenciesSet = new HashSet<>(Arrays.asList("AAA001", "BBB001", "CCC001", "DDD001", "EEE001", "FFF001", "GGG001", "HHH001", "III001", "JJJ001", "KKK001", "LLL001", "MMM001", "NNN001", "OOO001", "PPP001", "QQQ001", "RRR001", "SSS001", "TTT001", "UUU001", "VVV001", "WWW001", "XXX001", "YYY001", "ZZZ001"));
+}
